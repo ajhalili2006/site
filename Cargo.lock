@@ -3415,7 +3415,7 @@ dependencies = [
  "serde_dhall",
  "serde_json",
  "serde_yaml",
- "sha2 0.9.9",
+ "sha2 0.10.6",
  "sitemap",
  "thiserror",
  "tokio",
