@@ -1,119 +1,24 @@
+let Link = ./types/Link.dhall
+
 let Person = ./types/Person.dhall
 
 in  [ Person::{
-      , name = "Chuck Nelson"
-      , tags = [ "C++", "Python", "JSON", "GO", "Linux", "bash", "PHP", "Java" ]
-      , gitLink = Some "https://github.com/chuckn408"
-      }
-    , Person::{
-      , name = "Christian Sullivan"
+      , name = "bri recchia"
       , tags =
-        [ "go"
-        , "wasm"
-        , "react"
-        , "rust"
-        , "react-native"
-        , "swift"
-        , "google-cloud"
-        , "aws"
-        , "docker"
-        , "kubernetes"
-        , "istio"
-        , "typescript"
-        ]
-      , gitLink = Some "https://github.com/euforic"
-      , twitter = Some "https://twitter.com/euforic"
-      }
-    , Person::{
-      , name = "David Roberts"
-      , tags =
-        [ "ux"
-        , "ui"
-        , "documentation"
-        , "web"
-        , "html5"
-        , "javascript"
-        , "python"
-        , "qt"
+        [ "virtualization"
+        , "linux"
+        , "generalist"
+        , "containers"
+        , "networking"
+        , "bgp"
+        , "dns"
         , "bash"
-        , "front-end"
-        , "full-stack"
-        , "linux"
-        , "embedded"
-        , "sql"
-        ]
-      , gitLink = Some "https://github.com/ddr0"
-      , twitter = Some "https://twitter.com/DDR_4"
-      }
-    , Person::{
-      , name = "Faizan Jamil"
-      , tags =
-        [ "java"
-        , "c#"
         , "python"
-        , "javascript"
-        , "typescript"
-        , "html"
-        , "css"
-        , "vue.js"
-        , "express.js"
-        , "flask"
-        , "asp.net core"
-        , "razor pages"
-        , "ef core"
-        , "front-end"
-        , "back-end"
-        , "full-stack"
-        , "linux"
-        ]
-      , gitLink = Some "https://github.com/faizjamil"
-      }
-    , Person::{
-      , name = "Joseph Crawley"
-      , tags =
-        [ "javascript"
-        , "react"
-        , "csharp"
-        , "python"
-        , "full-stack"
-        , "web"
-        , "bash"
-        , "linux"
-        ]
-      , gitLink = Some "https://github.com/espe-on"
-      , twitter = Some "https://twitter.com/espe_on_"
-      }
-    , Person::{
-      , name = "nicoo"
-      , tags =
-        [ "cryptography"
-        , "Debian"
-        , "distributed systems"
-        , "embedded"
-        , "nix"
         , "rust"
-        , "privacy"
-        , "security"
-        , "SDR"
+        , "devops"
+        , "systems administration"
         ]
-      , gitLink = Some "https://github.com/nbraud"
-      }
-    , Person::{
-      , name = "Prajjwal Singh"
-      , tags =
-        [ "full-stack javascript"
-        , "ruby"
-        , "rails"
-        , "vuejs"
-        , "emberjs"
-        , "golang"
-        , "linux"
-        , "docker"
-        , "google-cloud"
-        , "typescript"
-        ]
-      , gitLink = Some "https://github.com/Prajjwal"
-      , twitter = Some "https://twitter.com/prajjwalsin"
+      , links = [ Link::{ url = "https://github.com/b-/", title = "Github" } ]
       }
     , Person::{
       , name = "Piyushh Bhutoria"
@@ -125,25 +30,25 @@ in  [ Person::{
         , "php"
         , "google-cloud"
         ]
-      , gitLink = Some "https://github.com/Piyushhbhutoria"
-      , twitter = Some "https://twitter.com/PiyushhB"
+      , links =
+        [ Link::{ url = "https://github.com/Piyushhbhutoria", title = "GitHub" }
+        , Link::{ url = "https://twitter.com/PiyushhB", title = "twitter" }
+        ]
       }
     , Person::{
-      , name = "Ryan Casalino"
+      , name = "Karan Yadav"
       , tags =
-        [ "golang"
-        , "react"
+        [ "ruby"
         , "python"
-        , "javascript"
+        , "linux"
+        , "c++"
         , "aws"
-        , "vue"
-        , "sql"
-        , "ruby"
-        , "rails"
-        , "flask"
-        , "unix"
+        , "backend"
         ]
-      , gitLink = Some "https://github.com/rjpcasalino"
+      , links =
+        [ Link::{ url = "https://github.com/karan-ydv", title = "GitHub" }
+        , Link::{ url = "https://karanydv.tech", title = "website" }
+        ]
       }
     , Person::{
       , name = "Jeremy White"
@@ -162,53 +67,25 @@ in  [ Person::{
         , "google-cloud"
         , "azure"
         ]
-      , gitLink = Some "https://github.com/dudymas"
-      , twitter = Some "https://twitter.com/dudymas"
-      }
-    , Person::{
-      , name = "Jeffin Mathew"
-      , tags =
-        [ "Python"
-        , "routing&switching"
-        , "django"
-        , "vue"
-        , "ansible"
-        , "aws"
-        , "javascript"
-        , "iot"
+      , links =
+        [ Link::{ url = "https://github.com/dudymas", title = "GitHub" }
+        , Link::{ url = "https://twitter.com/dudymas", title = "Twitter" }
         ]
-      , gitLink = Some "https://github.com/mjeffin"
-      , twitter = Some "https://twitter.com/mpjeffin"
       }
     , Person::{
-      , name = "Nasir Hussain"
+      , name = "Violet White"
       , tags =
-        [ "python"
+        [ "c++"
         , "linux"
+        , "python"
         , "javascript"
-        , "ansible"
-        , "nix"
-        , "docker&podman"
-        , "django"
-        , "golang"
-        , "rpm packaging"
+        , "sql"
+        , "lisps"
+        , "rust"
+        , "backend"
         ]
-      , gitLink = Some "https://github.com/nasirhm"
-      , twitter = Some "https://twitter.com/_nasirhm_"
-      }
-    , Person::{
-      , name = "Avi Parshan"
-      , tags =
-        [ "python", "windows", "javascript", "html", "android", "java", "C#" ]
-      , gitLink = Some "https://github.com/avipars"
-      , twitter = Some "https://twitter.com/aviinfinity"
-      }
-    , Person::{
-      , name = "Krish Jain"
-      , tags =
-        [ "c++", "linux", "c", "python", "ios", "nlp", "machine learning" ]
-      , gitLink = Some "https://github.com/Krish-sysadmin"
-      , twitter = Some "https://twitter.com/krishjain02"
+      , links =
+        [ Link::{ url = "https://github.com/epsilon-phase", title = "GitHub" } ]
       }
     , Person::{
       , name = "Henri Shustak"
@@ -230,9 +107,175 @@ in  [ Person::{
         , "full-stack"
         , "linux"
         , "R&D"
-        , "SRE / system adminsitration"
+        , "SRE / system administration"
         ]
-      , gitLink = Some "https://github.com/henri"
-      , twitter = Some "https://twitter.com/henri_shustak"
+      , links =
+        [ Link::{ url = "https://github.com/henri", title = "GitHub" }
+        , Link::{ url = "https://twitter.com/henri_shustak", title = "Twitter" }
+        ]
+      }
+    , Person::{
+      , name = "Andrei Jiroh Halili"
+      , tags =
+        [ "backend"
+        , "bash"
+        , "nodejs"
+        , "deno"
+        , "alpinelinux"
+        , "linux"
+        , "actuallyautistic"
+        ]
+      , links =
+        [ Link::{ url = "https://github.com/ajhalili2006", title = "GitHub" }
+        , Link::{ url = "https://mau.dev/ajhalili2006", title = "GitLab" }
+        , Link::{ url = "https://sr.ht/~ajhalili2006", title = "sourcehut" }
+        , Link::{
+          , url = "https://tilde.zone/@ajhalili2006"
+          , title = "Fediverse"
+          }
+        , Link::{
+          , url = "https://substack.com/@ajhalili2006"
+          , title = "Substack"
+          }
+        , Link::{ url = "https://andreijiroh.eu.org", title = "Website" }
+        ]
+      }
+    , Person::{
+      , name = "Ryan Heywood"
+      , tags =
+        [ "backend"
+        , "rust"
+        , "linux"
+        , "docker"
+        , "kubernetes"
+        , "rook+ceph"
+        , "calico"
+        , "aws"
+        , "terraform"
+        , "ansible"
+        , "nodejs"
+        , "react"
+        , "python"
+        ]
+      , links =
+        [ Link::{ url = "https://github.com/RyanSquared", title = "GitHub" }
+        , Link::{ url = "https://tilde.zone/@ryan", title = "Fediverse" }
+        , Link::{ url = "https://ryansquared.pub", title = "Website" }
+        ]
+      }
+    , Person::{
+      , name = "Aurorah Harmony"
+      , tags =
+        [ "full-stack"
+        , "typescript"
+        , "javascript"
+        , "vue"
+        , "nodejs"
+        , "php"
+        , "laravel"
+        , "docker"
+        , "linux"
+        ]
+      , links =
+        [ Link::{ url = "https://github.com/aurorahHarmony", title = "GitHub" }
+        , Link::{
+          , url = "https://pony.social/@aurorahHarmony"
+          , title = "Fediverse"
+          }
+        , Link::{ url = "https://itsaury.net", title = "Website" }
+        ]
+      }
+    , Person::{
+      , name = "Caramel Drop"
+      , tags =
+        [ "full-stack"
+        , "c#"
+        , "javascript"
+        , "docker"
+        , "nodejs"
+        , "linux"
+        , "system administration"
+        , "bash"
+        ]
+      , links =
+        [ Link::{ url = "https://github.com/caramelpony", title = "GitHub" }
+        , Link::{ url = "https://caramel.horse", title = "Website" }
+        ]
+      }
+    , Person::{
+      , name = "Satvik Jagannath"
+      , tags =
+        [ "backend"
+        , "nodejs"
+        , "linux"
+        , "javascript"
+        , "nextjs"
+        , "aws"
+        , "nodejs"
+        , "react"
+        , "python"
+        ]
+      , links =
+        [ Link::{ url = "https://github.com/bozzmob", title = "GitHub" }
+        , Link::{ url = "https://twitter.com/@bozzmob", title = "Twitter" }
+        , Link::{ url = "https://debugpointer.com", title = "Website" }
+        ]
+      }
+    , Person::{
+      , name = "Dillon Baird"
+      , tags =
+        [ "javascript"
+        , "nodejs"
+        , "react"
+        , "angular"
+        , "vue"
+        , "python"
+        , "redis"
+        , "sql"
+        , "devops"
+        , "sysadmin"
+        , "docker"
+        , "terraform"
+        , "ansible"
+        , "ui/ux"
+        ]
+      , links = [ Link::{ url = "https://dillonbaird.io", title = "Website" } ]
+      }
+    , Person::{
+      , name = "Aisling Fae (transfaeries)"
+      , tags =
+        [ "Writer"
+        , "Software Engineer"
+        , "AI/ML"
+        , "Python"
+        , "Docker"
+        , "Kubernetes"
+        , "Documentation"
+        , "Education"
+        , "vTuber"
+        ]
+      , links =
+        [ Link::{ url = "https://transfaeries.com", title = "Website" }
+        , Link::{ url = "https://github.com/transfaeries", title = "GitHub" }
+        ]
+      }
+    , Person::{
+      , name = "Jerred Shepherd"
+      , tags =
+        [ "Software Engineer"
+        , "Fullstack"
+        , "Java"
+        , "TypeScript"
+        , "React"
+        , "Vue"
+        , "Kubernetes"
+        , "AWS"
+        ]
+      , links =
+        [ Link::{ url = "https://sjer.red", title = "Website" }
+        , Link::{ url = "https://resume.sjer.red", title = "Resume" }
+        , Link::{ url = "https://github.com/shepherdjerred", title = "GitHub" }
+        ]
       }
     ]
+

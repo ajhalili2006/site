@@ -1,9 +1,10 @@
 # site
 
-[![built with
-nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
-![Nix](https://github.com/Xe/site/workflows/Nix/badge.svg)
-![Rust](https://github.com/Xe/site/workflows/Rust/badge.svg)
+![enbyware](https://pride-badges.pony.workers.dev/static/v1?label=enbyware&labelColor=%23555&stripeWidth=8&stripeColors=FCF434%2CFFFFFF%2C9C59D1%2C2C2C2C)
+![dependency status](https://img.shields.io/librariesio/github/Xe/site)
+![license](https://img.shields.io/github/license/Xe/site)
+![language count](https://img.shields.io/github/languages/count/Xe/site)
+![repo size](https://img.shields.io/github/repo-size/Xe/site)
 
 My personal/portfolio website.
 
@@ -29,5 +30,5 @@ mind:
    about issues or remediation instructions.
 
 This is probably not what you are looking for. Make your own website. Look into
-[Hugo](http://gohugo.io/) or [Zola](https://www.getzola.org/). They are going to
+[Hugo](https://gohugo.io/) or [Zola](https://www.getzola.org/). They are going to
 be better maintained than this site will be.
