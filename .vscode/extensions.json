@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "unifiedjs.vscode-mdx",
+    "bbenoist.nix",
+    "jnoortheen.nix-ide",
+    "dhall.dhall-lang",
+    "denoland.vscode-deno",
+    "bradlc.vscode-tailwindcss",
+    "ronnidc.nunjucks",
+    "streetsidesoftware.code-spell-checker",
+    "zxh404.vscode-proto3",
+    "xaver.clang-format"
+  ]
+}
